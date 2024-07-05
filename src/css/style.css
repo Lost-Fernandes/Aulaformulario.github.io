@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-image: url(../img/bg-repeat.jpg);
+    min-height: 100vh;
+    background-size: contain;
+}
+
+
+.principal{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.mensagem{
+    max-width: 350px;
+    max-height: 378px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+
+.mensagem .titulo{
+    font-size: 23px;
+    margin-bottom: 11px;
+    font-weight: 900;
+}
+
+
+.mensagem .texto{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.formulario{
+    max-width: 340px;
+    max-height: auto;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 15px;
+}
+
+
+.formulario .input{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 0 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #878686;
+}
+
+
+.formulario .input:focus{
+    outline: 0;
+}
+
+
+.formulario .campo-mensagem{
+    width: 298px;
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 8px 10px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 700;
+    color: #878686;
+}
+
+
+.formulario .campo-mensagem:focus{
+    outline: 0;
+}
+
+
+.formulario .campo-obrigatorio{
+    font-size: 9px;
+    color: #f52e2e;
+}
+
+
+.formulario .alerta{
+    margin-top: 7px;
+}
+
+
+.formulario .btn-enviar{
+
+    width: 298px;
+    height: 41px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #3bcc87;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
